@@ -1,5 +1,6 @@
 def my_collect(array)
   i = 0 
+  modified = []
   while i < array.size
-  yield(array[i])
+  modified << yield(array[i])
 
